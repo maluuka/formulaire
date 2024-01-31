@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="post">
+    <fieldset>
+        <legend>Votre identité</legend>
+    
+    <ol>
+        <li>
+            <label for="nom">Nom</label>
+            <input type="text" placeholder="prénom et nom">
+        </li>
+        <li>
+            <label for="email">Email</label>
+            <input type="email" placeholder="exemple@domaine.com">
+        </li>
+        <li>
+            <label for="tele">Téléphone</label>
+            <input type="tel" placeholder="par ex : +2169897879">
+        </li>
+    </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Adresse de livraison</legend>
+        <ol>
+            <li>
+                <label for="adre">Adresse</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                <label for="code">Code postal</label>
+                <input type="text">
+            </li>
+            <li>
+                <label for="ville">Ville</label>
+                <select name="" id="" required>
+                    <option value="">Ouarzazate</option>
+                    <option value="">Agadir</option>
+                    <option value="">Errachidia</option>
+                    <option value="">zagora</option>
+                </select>
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Informations carte bancaire</legend>
+        <ol>
+            <li><fieldset>
+                <legend>Type de carte bancaire</legend>
+                <ol>
+                    <li>
+                        <input type="checkbox">
+                        <label for="visa">Visa</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="visa">E-dinar</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="visa">Mastercard</label>
+                    </li>
+                </ol>
+            </fieldset></li>
+         <li>
+            <label for="">Numéro de carte</label>
+            <input type="text" required>
+         </li>   
+         <li>
+            <label for="">Code CVV2</label>
+            <input type="password" required>
+
+         </li>
+         <li>
+            <label for="">Nom du porteur</label>
+            <input type="text" placeholder="Meme nom que sur la carte ">
+        
+         </li>
+
+            
+        </ol>
+        <input type="checkbox">
+        <label for="">Livraison Express</label>
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Valider" required >
+        <input type="reset" value="Annuler">
+        <a href="#">Pour plus d'info veuillez nous contacter</a>
+    </fieldset>
+</form>
+
+   
+
+
+        
+
+
+
+
+  
+</body>
+</html>
